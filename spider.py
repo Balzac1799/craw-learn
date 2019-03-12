@@ -1,10 +1,11 @@
 # ecoding: utf-8
+
+import re
 import json
 from multiprocessing.pool import Pool
 
 import requests
 from requests.exceptions import RequestException
-import re
 
 
 def get_one_page(url):
